@@ -1,0 +1,21 @@
+{
+    "name": "ProjetoTESC_I",
+    "version": "1.0.0",
+    "description": "Trabalho desenvolvido como requisito avaliativo do componente curricular Tópicos Especiais em Sistemas Computacionais. Orientado pela professora Dr. Samara Martins.",
+    "main": "apps.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "author": "Dyego Magno & Ernandes Maia",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.8.11",
+        "pusher": "^3.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
